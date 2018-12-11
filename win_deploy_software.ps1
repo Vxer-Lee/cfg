@@ -3,6 +3,7 @@ cinst -y chocolatey
 
 #browser
 cinst -y googlechrome
+cinst -y chromium
 cinst -y opera
 cinst -y firefox
 cinst -y cyberfox
