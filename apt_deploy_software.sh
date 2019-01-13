@@ -1,8 +1,8 @@
 #pl
-sudo apt install golang
-curl https://sh.rustup.rs -sSf | sh
+sudo apt install golang #golang
+curl https://sh.rustup.rs -sSf | sh #rust
 
-#tool
+#cli tool
 sudo apt install git
 git clone https://github.com/rupa/z.git
 echo ". ./z/z.sh" >> .bashrc
@@ -21,7 +21,13 @@ sudo apt install nmap
 #go tool 
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+go get -u github.com/FiloSottile/mkcert
+
 
 #rust tool
 cargo install ripgrep
+cargo install fd
 cargo install bat
+cargo install hexl
+cargo install hyperfine
+cargo install just
